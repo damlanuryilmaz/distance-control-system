@@ -6,13 +6,13 @@ This is a car door distance control system that when the doors are too close the
 
 Components:
 Arduino Uno is used as microcontroller and CANbus is used a SPI communication system between Arduinos. Transmitter and receiver Arduinos is connected to breadboard. One breadboard has Ultrasonic Distance Sensor and the other has leds.
-Arduino Uno x 2 
-CANbus mcp2515 module x 2 
-Breadboard x2
-Leds x 3 
-Jumper cables
-Ultrasonic distance sensor 
-1k Resistors x3
+Arduino Uno x 2,
+CANbus mcp2515 module x 2,
+Breadboard x2,
+Leds x 3,
+Jumper cables,
+Ultrasonic distance sensor,
+1k Resistors x3.
 
 Explaining Block Diagram:
 First Arduino was connected to distance sensor and one of the CANbus. Which port was connected is written in the code lines. Then other Arduino was connected to LEDs and the other CANbus.
